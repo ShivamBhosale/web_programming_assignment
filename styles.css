@@ -1,0 +1,228 @@
+.header {
+    overflow: hidden;
+    background-color:gainsboro;
+    padding: 20px 25px;
+  }
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: white;
+    color:black;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  body{
+      background-color:black;
+      
+  }
+  .welcome{
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      color:white;
+      
+  }
+  .pro1{
+      width: 250px;
+      height: 250px;
+      border-style: dotted;
+      border-color:white;
+  }
+  hr{
+      border: 5px dashed white;
+  }
+  .form{
+    border-style: double;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:30%;
+    background-color:rgba(76, 85, 80, 0.5);
+    color: white;
+    
+    
+
+  }
+  input[type=text] {
+    
+    border-radius: 4px;
+    font-size: 30px;
+  }
+  input[type=password] {
+    
+    border-radius: 4px;
+    font-size: 30px;
+  }
+  button {
+    border: solid;
+    color:black;
+    padding: 9px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color:white;
+  }
+.register
+{
+  background-color: white;
+  width:8%;
+  font-size:30px;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.register a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.register a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the active/current link*/
+.register a.active {
+  background-color: white;
+  color:black;
+}
+
+.demons
+{
+  color:white;
+  border-style: solid;
+  width: 24%;
+  
+  background-image: url(https://images.genius.com/f505234629c96e699d905f231080ac6d.1000x1000x1.jpg);
+}
+.second
+{
+  
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://images.unsplash.com/photo-1581299327801-faeb40ea459e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+.trending
+{
+  color: black;
+  font-size: 50px;
+  background-color:white;
+}
+.third
+{
+  
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://i.pinimg.com/originals/cf/6e/54/cf6e5454f5a627b2d90164911037d5e0.jpg);
+}
+.fourth
+{
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://image.freepik.com/free-photo/gold-fabric-cloth-background-texture_49683-3812.jpg);
+}
+.fifth
+{
+  
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://4.bp.blogspot.com/-YgQcHYRY89M/W_SeMR07lLI/AAAAAAAALmE/2-FkTU68GAkOdGSQDx41cK1wbTfMyYYLACLcBGAs/s1600/fabric%2Bsports%2Bdark%2Bpurple%2Btexture%2B3888%2Bx%2B2592.jpg);
+}
+.sixth
+{
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);
+}
+.seventh
+{
+  
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://cdn.pixabay.com/photo/2014/04/07/20/27/texture-318907_1280.jpg);
+}
+.eight
+{
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(data:image/jpeg;base64,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);
+}
+.ninth{
+  color: white;
+  border-style: solid;
+  width: 24%;
+  background-image: url(https://i.pinimg.com/originals/9c/37/de/9c37de51c6b44dc2b97bbe1cfe199b55.jpg);
+
+}
+.tenth{
+
+    color: white;
+    border-style: solid;
+    width: 24%;
+    background-image: url(https://i.pinimg.com/originals/af/ff/f8/affff82206fddaf84733d76b11f80289.jpg);
+  
+  
+  }
+  .foot
+{
+  color: black;
+  font-size: 20px;
+  background-color:white;
+}
+
+  
